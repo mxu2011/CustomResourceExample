@@ -5,7 +5,7 @@ provider:
   name: aws
   runtime: nodejs8.10
   stage: ${opt:stage, 'dev'}
-  region: ${opt:region, 'ap-southeast-2'}
+  region: ${opt:region, 'us-west-2'}
   timeout: 30
   iamRoleStatements:
     - Effect: "Allow"
